@@ -1,9 +1,10 @@
-# OPS445 GROUP LAB
+# OPS445 NDD GROUP LAB
 
 ## Students participating:
-Madhav Uppal - 133931212
-Devank - 153322219
-Mohit Kumar - 123049215
+
+### Madhav Uppal - 133931212
+### Devank - 153322219
+### Mohit Kumar - 123049215
 
 ### What is Rock-Paper-Scissors game?
 "Rock, Paper, Scissors" is a game where you face the computer. Choose "rock," "paper," or "scissors." The computer also chooses. Rock beats scissors, scissors beats paper, paper beats rock. The winner is declared, and you can play again or quit. The game continues until you decide to stop.
