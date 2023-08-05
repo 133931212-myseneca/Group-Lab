@@ -56,3 +56,17 @@ def rock_paper_scissors():
 
 if __name__ == "__main__":
     rock_paper_scissors()
+
+
+Command used to commit updates to iteration1 branch:
+git commit -m "Commiting updates to iteration1 branch"
+
+Screenshot of Commits to iteration1 branch:
+![Commits Updated on git](<commits to iteration branch.png>)
+
+Command used to push updates to iteration1 branch:
+
+git push 
+
+Screenshot of Commits to iteration1 branch:
+![Branch pushed on git](<commits to iteration branch.png>)
