@@ -59,7 +59,7 @@ The program will exit, and you'll have completed your Rock, Paper, Scissors gami
 
 Have fun playing!
 ```
-Algorithm:
+### Algorithm:
 
 ```
 Rock, Paper, Scissors Game
@@ -87,9 +87,10 @@ Algorithm:
       - If the player's answer is not 'yes', exit the loop.
 3. End the game.
 ```
-```
-# Code for the Rock, Paper, Scissors game:
 
+### Code for the Rock, Paper, Scissors game:
+
+```
 import random
 
 def rock_paper_scissors():
