@@ -59,4 +59,75 @@ The program will exit, and you'll have completed your Rock, Paper, Scissors gami
 
 Have fun playing!
 ```
+Algorithm:
 
+```
+Rock, Paper, Scissors Game
+
+This is a simple implementation of the classic Rock, Paper, Scissors game. Players can choose one of three options (rock, paper, or scissors) to play against the computer's choice. The game continues until the player decides not to play again.
+
+Players' Roles:
+- Player: Chooses one of the three options (rock, paper, or scissors).
+- Computer: Randomly selects one of the three options.
+
+Algorithm:
+1. Initialize the options list: ["rock", "paper", "scissors"]
+2. Enter the game loop:
+   a. Generate a random choice for the computer.
+   b. Display the game welcome message.
+   c. Prompt the player to input their choice (rock, paper, or scissors).
+   d. Compare the player's choice with the computer's choice:
+      - If they're the same, declare a tie.
+      - Otherwise, check for win conditions:
+         - Rock beats scissors.
+         - Scissors beats paper.
+         - Paper beats rock.
+   e. Display the computer's choice and the game outcome.
+   f. Ask the player if they want to play again.
+      - If the player's answer is not 'yes', exit the loop.
+3. End the game.
+```
+```
+# Code for the Rock, Paper, Scissors game:
+
+import random
+
+def rock_paper_scissors():
+    while True:
+        options = ["rock", "paper", "scissors"]
+        computer_option = random.choice(options)
+
+        print("Welcome to Rock, Paper, Scissors!")
+        user_option = input("Enter your choice (rock, paper, or scissors): ").lower()
+
+        print(f"Computer chose: {computer_option}")
+        print(f"You chose: {user_option}")
+
+        if user_option == computer_option:
+            print("It's a tie!")
+        elif user_option == "rock":
+            if computer_option == "scissors":
+                print("You win!")
+            else:
+                print("Computer wins!")
+        elif user_option == "paper":
+            if computer_option == "rock":
+                print("You win!")
+            else:
+                print("Computer wins!")
+        elif user_option == "scissors":
+            if computer_option == "paper":
+                print("You win!")
+            else:
+                print("Computer wins!")
+        else:
+            print("Invalid choice. Please choose rock, paper, or scissors.")
+
+        play_again = input("Do you want to play again? (yes/no): ").lower()
+        if play_again != "yes":
+            break
+
+if __name__ == "__main__":
+    rock_paper_scissors()
+
+```
