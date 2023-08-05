@@ -5,11 +5,11 @@ Madhav Uppal - 133931212
 Devank - 153322219
 Mohit Kumar - 123049215
 
-### What is rock-paper-scissors game?
+### What is Rock-Paper-Scissors game?
 "Rock, Paper, Scissors" is a game where you face the computer. Choose "rock," "paper," or "scissors." The computer also chooses. Rock beats scissors, scissors beats paper, paper beats rock. The winner is declared, and you can play again or quit. The game continues until you decide to stop.
 
 ### Instructions on how to play the game:
-
+```
 Start the Game with the command:
 python3 ./rock_paper_scissors.py
 
@@ -58,5 +58,5 @@ End the Game:
 The program will exit, and you'll have completed your Rock, Paper, Scissors gaming session.
 
 Have fun playing!
-
+```
 
