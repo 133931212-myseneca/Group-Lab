@@ -1,4 +1,4 @@
-# Algorithm:
+# Algorithm and Scope of the Project:
 
 ```
 Rock, Paper, Scissors Game
