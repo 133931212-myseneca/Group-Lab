@@ -68,4 +68,4 @@ Devank - Provided the Flow Chart and helped in looping part of script.
 
 Mohit Kumar - Helped with Documentation and provided some changes in final script.
 
-*There is no other member in our group, we don't know the fourth member and he didn't contacted us throughour the project.* 
+*There is no other member in our group, we don't know the fourth member and he didn't contacted us throughout the project.* 
